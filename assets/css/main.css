@@ -7,7 +7,7 @@
     background-color: #FFF; } */
     font-family: Tahoma, Arial, Helvetica, sans-serif;
     text-align: center;
-    background: #FBFBE5 url(grass.gif) right bottom fixed no-repeat;
+    background: #FBFBE5 url(../img/grass.gif) right bottom fixed no-repeat;
     color: #566047;
   }
   a {
