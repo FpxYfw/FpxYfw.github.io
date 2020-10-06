@@ -70,7 +70,6 @@
     color: #828282;
     font-size: 150%;
     margin: 0px;
-    margin-top: 100px;
     padding: 0px;
     list-style-type: none; }
 
@@ -102,7 +101,7 @@
     margin: 30px auto;
     text-align: center; 
     float: right;
-    width: 70%;
+    width: 100%;
   }
 
   .page-title__text {
@@ -121,6 +120,7 @@
 
   .post-teaser {
     margin-bottom: 15px;
+    padding: 0 223px;
     font-weight: 700; }
 
   .post-teaser__title {
@@ -454,3 +454,5 @@
   /* Custom */
   .go-home {
     text-align: center; }
+
+    
