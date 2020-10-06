@@ -4,8 +4,8 @@ title: 留言板
 subtitle: 欢迎您的留言
 ---
 <div style="float: left;"> 
-    <table border=1>
-    <caption>留言bai薄</caption>
+    <table border=1 style="margin: 0 auto;">
+    <caption>留言薄</caption>
     <tr>
     <td>姓名：</td>
     <td><input type='text' /></td>
@@ -15,7 +15,7 @@ subtitle: 欢迎您的留言
     <td><input type='text' /></td>
     </tr>
     <tr>
-    <td>Email地址：du</td>
+    <td>Email地址：</td>
     <td><input type='text' /></td>
     </tr>
     <tr>
