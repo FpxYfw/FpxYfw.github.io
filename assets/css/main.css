@@ -1,10 +1,20 @@
 @charset "UTF-8";
 /* =Base *//*************************************************************/
   body {
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    /* font-family: Tahoma, Arial, Helvetica, sans-serif;
     text-align: center;
     background: #FBFBE5 url(../img/grass.gif) right bottom fixed no-repeat;
-    color: #566047;
+    color: #566047; */
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 0.9em;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/water.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-color: #F0ECD6;
   }
   a {
     color: #57A;
@@ -120,7 +130,13 @@
   .post-teaser {
     margin-bottom: 15px;
     padding: 0 223px;
-    font-weight: 700; }
+    font-weight: 700;
+    margin-left: 35px;
+    padding-left: 10px;
+    list-style-image: url(../img/bullet.png);
+    list-style-position: outside;
+    margin-top: 5px;
+  }
 
   .post-teaser__title {
     font-size: 100%;
@@ -150,7 +166,16 @@
   .about {
     color: #828282;
     text-align: center;
-    line-height: 24px; }
+    line-height: 24px; 
+    background-image: url(../img/bottom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    /* position: fixed; */
+    bottom: 0px;
+    z-index: 5;
+  }
 
   .about__devider {
     font-size: 100%;
