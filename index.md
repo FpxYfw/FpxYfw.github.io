@@ -6,3 +6,4 @@ sitemap:
   priority: 0.9
 ---
 
+<img src="/assets/img/vip.png" id="about-img">
