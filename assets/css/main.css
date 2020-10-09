@@ -24,7 +24,9 @@
 
   p, ul, ol, dl {
     font-size: 100%;
-    line-height: 32px; }
+    line-height: 32px;
+    padding-left: 50px;
+  }
 
   img {
     display: block;
@@ -212,7 +214,7 @@
 /* =Main Page *//*************************************************************/
   #about-img {
     border-radius: 13%;
-    /* max-width: 125px; */
+    max-width: 125px;
     margin: auto;
     margin-bottom: 3%;
     float: right;
